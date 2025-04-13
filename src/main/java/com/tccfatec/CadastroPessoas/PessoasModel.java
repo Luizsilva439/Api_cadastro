@@ -10,12 +10,12 @@ public class PessoasModel {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    Long id;
-    String nome;
-    int telefone;
-    String endereço;
-    String bairro;
-    int numero;
+    private Long id;
+    private String nome;
+    private int telefone;
+    private String endereço;
+    private String bairro;
+    private int numero;
 
 
     public PessoasModel(){
